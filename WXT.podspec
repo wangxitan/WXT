@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "WXT"
-  s.version      = "1.1.1"
+  s.version      = "1.2"
   s.summary      = "test pod spec WXT."
   s.homepage     = "https://github.com/wangxitan/WXT.git"
   s.license      = "MIT (LICENSE)"
@@ -39,19 +39,11 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/wangxitan/WXT.git", :tag => "1.1.1" }
+  s.source       = { :git => "https://github.com/wangxitan/WXT.git", :tag => "1.2"}
 
 
-  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  CocoaPods is smart about how it includes source code. For source files
-  #  giving a folder will include any swift, h, m, mm, c & cpp files.
-  #  For header files it will include any header in the folder.
-  #  Not including the public_header_files will make all headers public.
-  #
-
-  # s.source_files  = "WXT", "WXT/**/*.{h,m}"
-  s.exclude_files = "WXT"
+  s.source_files  = "WXT", "WXT/**/*.{h,m}"
+  # s.exclude_files = "ViewCatgory"
 
   # s.public_header_files = "Classes/**/*.h"
 
