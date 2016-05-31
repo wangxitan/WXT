@@ -1,5 +1,4 @@
 # WXT
-wxtCatgory
-自己的一些模块
+wxtCatgory这个是 iphone 滑动解锁效果！
 
 
